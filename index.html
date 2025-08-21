@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>타이머 구현하기</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="logo"><img src="./src/weniv-logo.svg" alt="위니브 로고"></h1>
+    </header>
+    <main>
+      <article class="timer">
+        <h2 class="title">TIMER</h2>
+        <div class="time">
+          <div class="box hrs">
+            <span class="sub-title">HRS</span>
+            <span class="number" id="hrs">00</span>
+          </div>
+          <div class="box min">
+            <span class="sub-title">MIN</span>
+            <span class="number" id="min">00</span>
+          </div>
+          <div class="box sec">
+            <span class="sub-title">SEC</span>
+            <span class="number" id="sec">00</span>
+          </div>
+        </div>
+        <div class="btn-area">
+          <button type="button" class="btn start" id="startBtn"><img src="./src/icon-start.svg">START</button>
+          <button type="button" class="btn pause" id="pauseBtn"><img src="./src/icon-stop.svg">PAUSE</button>
+          <button type="button" class="btn reset" id="resetBtn"><img src="./src/icon-reset.svg">RESET</button>
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <script src="./script/index.js"></script>
+</body>
+
+</html>
